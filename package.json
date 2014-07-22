@@ -1,0 +1,27 @@
+{
+  "name": "psha1",
+  "version": "0.1.0",
+  "description": "P_SHA1 algorithm implemetation as defined in TLS Spec (rfc5246, 5.HMAC and the Pseudorandom Function)",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandrob/node-psha1.git"
+  },
+  "keywords": [
+    "WS-Trust",
+    "PSHA1",
+    "P_SHA1",
+    "Computed Keys",
+    "Proof",
+    "Symmetric Keys",
+    "http://schemas.xmlsoap.org/ws/2005/02/trust/CK/PSHA1",
+    "http://docs.oasis-open.org/ws-sx/ws-trust/200512/CK/PSHA1",
+    "http://tools.ietf.org/html/rfc5246"
+  ],
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "author": "Leandro Boffi (me@leandrob.com)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
