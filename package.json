@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "P_SHA1 algorithm implemetation as defined in TLS Spec (rfc5246, 5.HMAC and the Pseudorandom Function)",
   "main": "./lib/index.js",
+  "files": [
+    "lib/"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/leandrob/node-psha1.git"
@@ -23,5 +26,8 @@
   },
   "author": "Leandro Boffi (me@leandrob.com)",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "^1.21.0"
+  }
 }
