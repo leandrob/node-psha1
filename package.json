@@ -1,6 +1,6 @@
 {
   "name": "psha1",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "P_SHA1 algorithm implemetation as defined in TLS Spec (rfc5246, 5.HMAC and the Pseudorandom Function)",
   "main": "./lib/index.js",
   "files": [
