@@ -10,7 +10,7 @@ This mechanism is used in [WS-Trust spec](http://docs.oasis-open.org/ws-sx/ws-tr
 ## Installation
 
 ```bash
-$ npm install sha1
+$ npm install psha1
 ```
 
 ## Usage
